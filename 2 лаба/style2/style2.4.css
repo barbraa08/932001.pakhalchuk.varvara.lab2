@@ -1,0 +1,17 @@
+html 
+{
+	font-family: Arial;
+}
+body 
+{
+	margin: 0 auto;
+	color:#ffffff;
+	max-width: 600px;
+}
+.content {
+	margin: 10px auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: auto;
+	background-color: #0000ff;
+}

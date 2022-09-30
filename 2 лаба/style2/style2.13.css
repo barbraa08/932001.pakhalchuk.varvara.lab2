@@ -1,0 +1,48 @@
+p {
+	margin: 0;
+}
+.list {
+	background-color: bisque;
+	max-width: 400px;
+	min-width: 120px;
+	height: max-content;
+	margin-bottom: 0;
+	flex-shrink: 0;
+	position: relative;
+	top: 0px;
+	list-style-type: disc;
+	flex-shrink: 0;
+	flex: 0 0 100%;
+}
+.all {
+	width: 100%;
+	display: flex;
+	border: solid;
+	border-width: 1px;
+	border-color: darkgreen;
+	background-color: aqua;
+	position: relative;
+}
+.text {
+	background-color: darkgray;
+}
+.imgs {
+	float:right;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+}
+@media screen and (min-width: 620px) {
+p:last-child{
+	clear: both;
+}
+}
+@media screen and (max-width: 620px) {
+	.text {
+		max-width: 380px;
+		margin: 0;
+	}
+	.list {
+		max-width: 120px;
+	}
+}

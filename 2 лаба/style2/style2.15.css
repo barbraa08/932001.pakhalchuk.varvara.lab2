@@ -1,0 +1,16 @@
+.inline-bl {
+    background-color: aquamarine;
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin: 15px;
+    padding: 0;
+}
+
+.noclear {
+    background-color: bisque;
+    clear: left;
+    width: 100%;
+    height: min-content;
+    padding: 0;
+}

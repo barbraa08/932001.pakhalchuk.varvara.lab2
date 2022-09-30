@@ -1,0 +1,29 @@
+html {
+    font-family: serif;
+}
+
+body {
+    margin: 0 auto;
+    color: #000;
+    max-width: 500px;
+}
+
+.content {
+    margin: 20px auto;
+    margin-left: 10px auto;
+    margin-right: 10px auto;
+    height: auto;
+    background-color: white;
+    display: block;
+}
+
+.content2 {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    background-color: white;
+    display: block;
+    border: 10px solid blue;
+    padding: 40px;
+}

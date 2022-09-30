@@ -1,0 +1,13 @@
+.text {
+    background-color: blue;
+    color: #ffffff;
+    width: 600px;
+    margin: auto;
+}
+.imgs {
+    float: right;
+    height: 265px;
+    width: 300px;
+    padding: 0 0 15px 15px;
+    margin: 0;
+}

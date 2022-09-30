@@ -1,0 +1,36 @@
+.list {
+	background-color: bisque;
+	max-width: 400px;
+	height: max-content;
+	margin-bottom: 0;
+	flex-shrink: 0;
+	position: relative;
+	top: 0px;
+	flex: 0 0 100%;
+	list-style-type: disc;
+}
+.all {
+	width: 100%;
+	display: flex;
+	border: solid;
+	border-width: 2px;
+	border-color: darkgreen;	
+	background-color: aqua;
+	position: relative;
+}
+.text {
+	background-color: darkgray;
+	margin: 0 5px 0 5px;
+}
+@media screen and (max-width: 620px) {
+	.all {
+		flex-wrap: wrap;
+		}
+	.text {
+		max-width: 380px;		
+		margin: 0;
+		}
+	.list {
+		max-width: 200px;
+	}
+}

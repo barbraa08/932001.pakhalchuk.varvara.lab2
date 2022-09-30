@@ -1,0 +1,15 @@
+.float {
+	background-color: aquamarine;
+	float: left;
+	width: 150px;
+	height: 100px;
+	margin: 20px;
+	padding: 0;
+}
+.clear {
+	background-color: bisque;
+	clear: left;
+	width: 100%;
+	height: min-content;
+	padding: 0;
+}

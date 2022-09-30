@@ -1,0 +1,48 @@
+.list {
+	background-color: bisque;
+	max-width: 400px;
+	min-width: 120px;
+	height: max-content;
+	margin-bottom: 0;
+	flex-shrink: 0;
+	position: relative;
+	top: 0px;
+	list-style-type: disc;
+	flex-shrink: 0;
+	flex: 0 0 100%;
+}
+.all {
+	height: max-content;
+	width: 100%;
+	display: flex;
+	border: solid;
+	border-width: 1px;
+	border-color: darkgreen;
+	background-color: aqua;
+	position: relative;
+}
+.text {
+	background-color: darkgray;
+	margin: 0;
+}
+p {
+	margin: 0;
+}
+@media screen and (max-width: 620px) {
+	.list {
+		list-style-type: none;
+		margin: 15px 0 15px 0;
+		padding: 0;
+		min-width: 100%;
+	}
+	ul {
+		margin: 0;
+
+	}
+	.all {
+		flex-wrap: wrap;
+	}
+	ul li {
+		display: inline;
+	}
+}
